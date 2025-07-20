@@ -1,13 +1,8 @@
 {
-  "version": 2,
   "rewrites": [
     {
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ],
-  "buildCommand": "npx ng build --configuration production",
-  "outputDirectory": "dist/uleam-empleos",
-  "installCommand": "npm install",
-  "framework": "angular"
+  ]
 }
