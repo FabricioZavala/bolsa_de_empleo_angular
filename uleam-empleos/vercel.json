@@ -1,8 +1,8 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "npm run build:prod",
+  "buildCommand": "npx ng build --configuration production",
   "outputDirectory": "dist/uleam-empleos",
-  "installCommand": "npm ci",
+  "installCommand": "npm install",
   "rewrites": [
     {
       "source": "/(.*)",
