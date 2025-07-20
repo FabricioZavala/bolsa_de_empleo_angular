@@ -102,15 +102,6 @@ import { User } from '../../core/models/user.model';
                   Publicar Empleo
                 </a>
               </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  routerLink="/employer/jobs"
-                  routerLinkActive="active"
-                >
-                  Candidatos
-                </a>
-              </li>
             </ng-container>
           </ul>
 

@@ -94,9 +94,12 @@ import { Job, Application, User } from '../../../core/models/user.model';
                   </a>
                 </div>
                 <div class="col-md-3 mb-2">
-                  <a routerLink="/employer/jobs" class="btn btn-info w-100">
+                  <a
+                    routerLink="/employer/jobs"
+                    class="btn btn-outline-info w-100"
+                  >
                     <i class="bi bi-people me-2"></i>
-                    Ver Candidatos
+                    Gestionar Empleos
                   </a>
                 </div>
                 <div class="col-md-3 mb-2">
@@ -201,20 +204,12 @@ import { Job, Application, User } from '../../../core/models/user.model';
                           }}</span>
                         </td>
                         <td>
-                          <div class="btn-group btn-group-sm">
-                            <a
-                              [routerLink]="['/employer/jobs', job.id]"
-                              class="btn btn-outline-primary"
-                            >
-                              <i class="bi bi-eye"></i>
-                            </a>
-                            <a
-                              [routerLink]="['/employer/jobs', job.id, 'edit']"
-                              class="btn btn-outline-secondary"
-                            >
-                              <i class="bi bi-pencil"></i>
-                            </a>
-                          </div>
+                          <a
+                            [routerLink]="['/employer/applicants', job.id]"
+                            class="btn btn-outline-primary btn-sm"
+                          >
+                            <i class="bi bi-people"></i> Ver Candidatos
+                          </a>
                         </td>
                       </tr>
                     </tbody>
@@ -238,7 +233,7 @@ import { Job, Application, User } from '../../../core/models/user.model';
                 Postulaciones Recientes
               </h5>
               <a
-                routerLink="/employer/applications"
+                routerLink="/employer/jobs"
                 class="btn btn-outline-primary btn-sm"
               >
                 Ver Todas
@@ -296,8 +291,8 @@ import { Job, Application, User } from '../../../core/models/user.model';
                         <td>
                           <a
                             [routerLink]="[
-                              '/employer/applications',
-                              application.id
+                              '/employer/applicants',
+                              application.jobId
                             ]"
                             class="btn btn-sm btn-outline-primary"
                           >

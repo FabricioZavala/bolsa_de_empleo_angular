@@ -51,8 +51,10 @@ import { User } from '../../../core/models/user.model';
               <!-- Profile Image -->
               <div class="mb-3">
                 <div class="position-relative d-inline-block">
-                  <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center text-white"
-                       style="width: 150px; height: 150px; border: 4px solid #e9ecef; font-size: 3rem;">
+                  <div
+                    class="rounded-circle bg-primary d-flex align-items-center justify-content-center text-white"
+                    style="width: 150px; height: 150px; border: 4px solid #e9ecef; font-size: 3rem;"
+                  >
                     <i class="bi bi-person-fill"></i>
                   </div>
                 </div>

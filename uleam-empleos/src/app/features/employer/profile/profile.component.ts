@@ -153,13 +153,15 @@ import { User, EmployerProfile } from '../../../core/models/user.model';
           <div class="card mb-4">
             <div class="card-body text-center">
               <div class="mb-3">
-                <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center text-white mx-auto"
-                     style="width: 120px; height: 120px; border: 3px solid #e9ecef; font-size: 2.5rem;">
+                <div
+                  class="rounded-circle bg-primary d-flex align-items-center justify-content-center text-white mx-auto"
+                  style="width: 120px; height: 120px; border: 3px solid #e9ecef; font-size: 2.5rem;"
+                >
                   <i class="bi bi-building-fill"></i>
                 </div>
               </div>
-              <h5 class="mb-1">{{getCompanyName()}}</h5>
-              <p class="text-muted small">{{getIndustry()}}</p>
+              <h5 class="mb-1">{{ getCompanyName() }}</h5>
+              <p class="text-muted small">{{ getIndustry() }}</p>
             </div>
           </div>
 
