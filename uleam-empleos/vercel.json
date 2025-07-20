@@ -1,9 +1,10 @@
 {
   "version": 2,
   "framework": null,
-  "buildCommand": "npm run build",
+  "buildCommand": "npm ci && npm run build",
   "outputDirectory": "dist/uleam-empleos/browser",
-  "installCommand": "npm install",
+  "installCommand": "npm ci",
+  "functions": {},
   "rewrites": [
     {
       "source": "/(.*)",
