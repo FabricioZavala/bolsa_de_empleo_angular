@@ -6,7 +6,7 @@
       "destination": "/index.html"
     }
   ],
-  "buildCommand": "npm run build:prod",
+  "buildCommand": "npx ng build --configuration production",
   "outputDirectory": "dist/uleam-empleos",
   "installCommand": "npm install",
   "framework": "angular"
