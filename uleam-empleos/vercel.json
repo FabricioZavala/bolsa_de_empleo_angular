@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "buildCommand": "npm run build && cp -r dist/uleam-empleos/browser/* dist/uleam-empleos/",
-  "outputDirectory": "dist/uleam-empleos",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/browser",
   "rewrites": [
     {
       "source": "/(.*)",
